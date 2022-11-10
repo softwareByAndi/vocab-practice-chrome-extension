@@ -1,0 +1,754 @@
+{
+  "___": {
+    "_default": null,
+    "_fluency": 0
+  },
+  "_generic_keys": [
+    "the",
+    "to"
+  ],
+  "a": {
+    "_default": null,
+    "_fluency": 1344
+  },
+  "all": {
+    "_default": "todo",
+    "_fluency": 61,
+    "day": {
+      "_default": "todo el día",
+      "_fluency": 0
+    }
+  },
+  "also": {
+    "_default": "también",
+    "_fluency": 21
+  },
+  "an": {
+    "_default": null,
+    "_fluency": 259
+  },
+  "and": {
+    "_default": "y",
+    "_fluency": 401
+  },
+  "are": {
+    "_default": "son",
+    "_fluency": 151
+  },
+  "big": {
+    "_default": "grande",
+    "_fluency": 10
+  },
+  "command": {
+    "_default": null,
+    "_fluency": 60
+  },
+  "contents": {
+    "_default": "contenido",
+    "_fluency": 9
+  },
+  "day": {
+    "_default": "día",
+    "_fluency": 43
+  },
+  "from": {
+    "_default": "desde",
+    "_fluency": 35
+  },
+  "future": {
+    "_default": "futuro",
+    "_fluency": 1
+  },
+  "good": {
+    "_default": "bueno",
+    "_fluency": 10
+  },
+  "has": {
+    "_default": "tiene",
+    "_fluency": 25
+  },
+  "he": {
+    "_default": "él",
+    "_fluency": 55,
+    "can": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "él puede ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "el puede verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "could": {
+      "_default": null,
+      "_fluency": 2,
+      "see": {
+        "_default": "el podria ver",
+        "_fluency": 1,
+        "it": {
+          "_default": "el pudo verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "see": {
+      "_default": "el ve",
+      "_fluency": 0
+    },
+    "sees": {
+      "_default": "él ve",
+      "_fluency": 0
+    },
+    "shall": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "él verá",
+        "_fluency": 0,
+        "it": {
+          "_default": "el lo verá",
+          "_fluency": 0
+        }
+      }
+    },
+    "should": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "debería ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "debería verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "will": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "el verá",
+        "_fluency": 0,
+        "it": {
+          "_default": "el lo verá",
+          "_fluency": 0
+        }
+      }
+    },
+    "would": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "el veria",
+        "_fluency": 0,
+        "it": {
+          "_default": "el lo veria",
+          "_fluency": 0
+        }
+      }
+    }
+  },
+  "high": {
+    "_default": "alto",
+    "_fluency": 11,
+    "school": {
+      "_default": "escuela secundaria",
+      "_fluency": 0
+    }
+  },
+  "i": {
+    "_default": "yo",
+    "_fluency": 383,
+    "am": {
+      "_default": "estoy",
+      "_fluency": 36
+    },
+    "can": {
+      "_default": null,
+      "_fluency": 6,
+      "see": {
+        "_default": "puedo ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "puedo verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "could": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "podría ver",
+        "_fluency": 2,
+        "it": {
+          "_default": "pude verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "see": {
+      "_default": "veo",
+      "_fluency": 6
+    },
+    "shall": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "yo veré",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo veré",
+          "_fluency": 0
+        }
+      }
+    },
+    "should": {
+      "_default": null,
+      "_fluency": 2,
+      "see": {
+        "_default": "debería ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "debería verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "will": {
+      "_default": null,
+      "_fluency": 12,
+      "see": {
+        "_default": "yo veré",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo veré",
+          "_fluency": 0
+        }
+      }
+    },
+    "would": {
+      "_default": null,
+      "_fluency": 2,
+      "see": {
+        "_default": "yo vería",
+        "_fluency": 0,
+        "it": {
+          "_default": "yo lo veria",
+          "_fluency": 0
+        }
+      }
+    }
+  },
+  "is": {
+    "_default": "es",
+    "_fluency": 256
+  },
+  "it": {
+    "_default": "eso",
+    "_fluency": 292,
+    "can": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "puede ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "puede verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "could": {
+      "_default": null,
+      "_fluency": 2,
+      "see": {
+        "_default": "podría ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "podría verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "is": {
+      "_default": "es",
+      "_fluency": 16
+    },
+    "see": {
+      "_default": "se ve",
+      "_fluency": 0
+    },
+    "sees": {
+      "_default": "ve",
+      "_fluency": 0
+    },
+    "shall": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "verá",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo verá",
+          "_fluency": 0
+        }
+      }
+    },
+    "should": {
+      "_default": null,
+      "_fluency": 4,
+      "see": {
+        "_default": "debería ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "debería verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "was": {
+      "_default": "era",
+      "_fluency": 15,
+      "raining": {
+        "_default": "estaba lloviendo",
+        "_fluency": 0
+      }
+    },
+    "will": {
+      "_default": null,
+      "_fluency": 12,
+      "see": {
+        "_default": "verá",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo verá",
+          "_fluency": 0
+        }
+      }
+    },
+    "would": {
+      "_default": null,
+      "_fluency": 9,
+      "see": {
+        "_default": "vería",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo veria",
+          "_fluency": 0
+        }
+      }
+    }
+  },
+  "my": {
+    "_default": "mi",
+    "_fluency": 78
+  },
+  "note": {
+    "_default": "nota",
+    "_fluency": 44
+  },
+  "onbeforeunload": {
+    "_default": null,
+    "_fluency": 0
+  },
+  "one": {
+    "_default": "uno",
+    "_fluency": 82
+  },
+  "only": {
+    "_default": "solo",
+    "_fluency": 27
+  },
+  "other": {
+    "_default": "otro",
+    "_fluency": 50
+  },
+  "read": {
+    "_default": "leer",
+    "_fluency": 12
+  },
+  "required": {
+    "_default": "obligatorios",
+    "_fluency": 1,
+    "to": {
+      "_default": "obligatorios",
+      "_fluency": 0
+    }
+  },
+  "rust": {
+    "_default": "óxido",
+    "_fluency": 21
+  },
+  "see": {
+    "_default": "ver",
+    "_fluency": 20
+  },
+  "she": {
+    "_default": "ella",
+    "_fluency": 68,
+    "can": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "ella puede ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "ella puede verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "could": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "ella pudo ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "ella podía verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "see": {
+      "_default": "ella ve",
+      "_fluency": 0
+    },
+    "sees": {
+      "_default": "ella ve",
+      "_fluency": 0
+    },
+    "shall": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "ella verá",
+        "_fluency": 0,
+        "it": {
+          "_default": "ella lo verá",
+          "_fluency": 0
+        }
+      }
+    },
+    "should": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "ella debería ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "ella debería verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "will": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "ella verá",
+        "_fluency": 0,
+        "it": {
+          "_default": "ella lo verá",
+          "_fluency": 0
+        }
+      }
+    },
+    "would": {
+      "_default": null,
+      "_fluency": 1,
+      "see": {
+        "_default": "ella vería",
+        "_fluency": 0,
+        "it": {
+          "_default": "ella lo vería",
+          "_fluency": 0
+        }
+      }
+    }
+  },
+  "should": {
+    "_default": "debería",
+    "_fluency": 25
+  },
+  "small": {
+    "_default": "pequeña",
+    "_fluency": 7
+  },
+  "struggling": {
+    "_default": "luchando",
+    "_fluency": 1
+  },
+  "the": {
+    "_default": null,
+    "_fluency": 3814,
+    "children": {
+      "_default": "los hijos",
+      "_fluency": 0
+    },
+    "most": {
+      "_default": "lo mas",
+      "_fluency": 19
+    }
+  },
+  "their": {
+    "_default": "sus",
+    "_fluency": 53
+  },
+  "they": {
+    "_default": "ellos",
+    "_fluency": 59,
+    "can": {
+      "_default": null,
+      "_fluency": 3,
+      "see": {
+        "_default": "ellos pueden ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "ellos pueden verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "could": {
+      "_default": null,
+      "_fluency": 2,
+      "see": {
+        "_default": "ellos pudieron ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "ellos pudieron verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "see": {
+      "_default": "ellos ven",
+      "_fluency": 0
+    },
+    "shall": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "ellos verán",
+        "_fluency": 0,
+        "it": {
+          "_default": "ellos lo verán",
+          "_fluency": 0
+        }
+      }
+    },
+    "should": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "ellos deberían ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "deberían verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "will": {
+      "_default": null,
+      "_fluency": 1,
+      "see": {
+        "_default": "ellos verán",
+        "_fluency": 0,
+        "it": {
+          "_default": "ellos lo verán",
+          "_fluency": 0
+        }
+      }
+    },
+    "would": {
+      "_default": null,
+      "_fluency": 1,
+      "see": {
+        "_default": "ellos verían",
+        "_fluency": 0,
+        "it": {
+          "_default": "ellos lo verían",
+          "_fluency": 0
+        }
+      }
+    }
+  },
+  "this": {
+    "_default": "esto",
+    "_fluency": 308,
+    "exam": {
+      "_default": "este examen",
+      "_fluency": 0
+    }
+  },
+  "time": {
+    "_default": "tiempo",
+    "_fluency": 14
+  },
+  "to": {
+    "_default": null,
+    "_fluency": 2585,
+    "attend": {
+      "_default": "asistir",
+      "_fluency": 0
+    },
+    "see": {
+      "_default": "para ver",
+      "_fluency": 1
+    }
+  },
+  "today": {
+    "_default": "hoy dia",
+    "_fluency": 2,
+    "is": {
+      "_default": "hoy es",
+      "_fluency": 0
+    }
+  },
+  "uno": {
+    "_default": null,
+    "_fluency": 0
+  },
+  "versions": {
+    "_default": "versiones",
+    "_fluency": 1
+  },
+  "voluntad": {
+    "_default": null,
+    "_fluency": 0
+  },
+  "we": {
+    "_default": null,
+    "_fluency": 92,
+    "could": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "podemos ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "pudimos verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "would": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "veríamos",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo veriamos",
+          "_fluency": 0
+        }
+      }
+    }
+  },
+  "will": {
+    "_default": null,
+    "_fluency": 229,
+    "depend": {
+      "_default": "dependera",
+      "_fluency": 0,
+      "on": {
+        "_default": "dependera de",
+        "_fluency": 0
+      }
+    }
+  },
+  "word": {
+    "_default": "palabra",
+    "_fluency": 0
+  },
+  "you": {
+    "_default": "tú",
+    "_fluency": 235,
+    "are": {
+      "_default": "eres",
+      "_fluency": 22
+    },
+    "can": {
+      "_default": null,
+      "_fluency": 56,
+      "see": {
+        "_default": "puedes ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "puedes verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "could": {
+      "_default": null,
+      "_fluency": 7,
+      "see": {
+        "_default": "podrías ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "podrías verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "see": {
+      "_default": "verás",
+      "_fluency": 0
+    },
+    "shall": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "tu veras",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo verás",
+          "_fluency": 0
+        }
+      }
+    },
+    "should": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "deberías ver",
+        "_fluency": 0,
+        "it": {
+          "_default": "deberías verlo",
+          "_fluency": 0
+        }
+      }
+    },
+    "will": {
+      "_default": null,
+      "_fluency": 0,
+      "see": {
+        "_default": "ya verás",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo verás",
+          "_fluency": 0
+        }
+      }
+    },
+    "would": {
+      "_default": null,
+      "_fluency": 1,
+      "see": {
+        "_default": "tu verias",
+        "_fluency": 0,
+        "it": {
+          "_default": "lo verías",
+          "_fluency": 0
+        }
+      }
+    }
+  }
+}

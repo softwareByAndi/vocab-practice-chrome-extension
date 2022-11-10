@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Vocab Practice",
+  "version": "0.0.1",
+  "description": "translate all vocab words into target language",
+ 
+  "content_scripts": [{
+    "css": ["styles.css", "tooltip.css"],
+    "js": ["content.js", "translate.js"],
+    "matches":["*://*/*"]
+  }],
+
+  "permissions":[
+    "storage"
+  ],
+
+  "web_accessible_resources":[
+    "vocab.json"
+  ]
+ 
+}

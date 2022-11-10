@@ -1,0 +1,147 @@
+{
+    "_generic_keys": ["the", "to"],
+    "it": {
+        "_default": "eso",
+        "_fluency": 0,
+        "was": {
+            "_default": "era",
+            "_fluency": 0,
+            "raining": {
+                "_default": "estaba lloviendo",
+                "_fluency": 0
+            }
+        },
+        "is": {
+            "_default": "es",
+            "_fluency": 0
+        }
+    },
+    "high": {
+        "_default": "alto",
+        "_fluency": 0,
+        "school": {
+            "_default": "escuela secundaria",
+            "_fluency": 0
+        }
+    },
+    "today": {
+        "_default": "hoy dia",
+        "_fluency": 0,
+        "is": {
+            "_default": "hoy es",
+            "_fluency": 0
+        }
+    },
+    "the": {
+        "_default": null,
+        "_fluency": 0,
+        "most": {
+            "_default": "lo mas",
+            "_fluency": 0
+        },
+        "children": {
+            "_default": "los hijos",
+            "_fluency": 0
+        }
+    },
+    "day": {
+        "_default": "día",
+        "_fluency": 0
+    },
+    "their": {
+        "_default": "sus",
+        "_fluency": 0
+    },
+    "future": {
+        "_default": "futuro",
+        "_fluency": 0
+    },
+    "will": {
+        "_default": "voluntad",
+        "_fluency": 0,
+        "depend": {
+            "_default": "dependera",
+            "_fluency": 0,
+            "on": {
+                "_default": "dependera de",
+                "_fluency": 0
+            }
+        }
+    },
+    "this": {
+        "_default": "esto",
+        "_fluency": 0,
+        "exam": {
+            "_default": "este examen",
+            "_fluency": 0
+        }
+    },
+    "only": {
+        "_default": "solo",
+        "_fluency": 0
+    },
+    "all": {
+        "_default": "todo",
+        "_fluency": 0,
+        "day": {
+            "_default": "todo el día",
+            "_fluency": 0
+        }
+    },
+    "are": {
+        "_default": "son",
+        "_fluency": 0
+    },
+    "required": {
+        "_default": "obligatorios",
+        "_fluency": 0,
+        "to": {
+            "_default": "obligatorios",
+            "_fluency": 0
+        }
+    },
+    "to": {
+        "_default": null,
+        "_fluency": 0,
+        "attend": {
+            "_default": "asistir",
+            "_fluency": 0
+        }
+    },
+    "should": {
+        "_default": "debería",
+        "_fluency": 0
+    },
+    "you": {
+        "_default": "tú",
+        "_fluency": 0,
+        "are": {
+            "_default": "eres",
+            "_fluency": 0
+        }
+    },
+    "i": {
+        "_default": "yo",
+        "_fluency": 0,
+        "am": {
+            "_default": "estoy",
+            "_fluency": 0
+        }
+    },
+    "he": {
+        "_default": "él",
+        "_fluency": 0
+    },
+    "she": {
+        "_default": "ella",
+        "_fluency": 0
+    },
+    "they": {
+        "_default": "ellos",
+        "_fluency": 0
+    },
+    "___": {
+        "_default": null,
+        "_fluency": 0
+    }
+}

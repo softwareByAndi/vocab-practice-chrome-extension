@@ -1,0 +1,115 @@
+town : 小镇 : 0
+manor : 庄园 : 0
+villa : 庄园 : 0
+mo fan : 莫凡 : 0
+mo fang : 莫凡 : 0
+mofan : 莫凡 : 0
+mo fam : 莫凡 : 0
+xinxia : 心夏 : 0
+zhang xiaohou : 张小侯 : 0
+zhao manyan : 赵满延 : 0
+ling ling : 灵灵 : 0
+lingling : 灵灵 : 0
+lightning : 雷电 : 0
+thunderbolt : 霹雳 : 0
+strikes : 击 : 0
+strike : 击 : 0
+electric field : 雷印力场 : 0
+electric : 电 : 0
+light : 光 : 0
+water : 水 : 0
+fire : 火 : 0
+earth : 地 : 0
+window : 窗 : 0
+wind : 风 : 0
+summoning : 召唤 : 0
+elements : 系 : 0
+element : 系 : 0
+swimming pool : 游泳池 : 0
+pool : 水池 : 0
+swimming : 游泳 : 0
+pond : 池子 : 0
+respond : 回答 : 0
+defense : 防御 : 0
+magicians : 法师们 : 0
+magician : 法师 : 0
+fortress : 堡垒 : 0
+my : 我的 : 0
+me : 我 : 0
+i am : 我是 : 0
+i'm : 我是 : 0
+i : 我 : 0
+yours : 你的 : 0
+your : 你的 : 0
+you are : 你是 : 0
+you're : 你是 : 0
+you : 你 : 0
+hers : 她的 : 0
+her : 她 : 0
+she is : 她是 : 0
+she's : 她是 : 0
+she : 她 : 0
+his : 他的 : 0
+him : 他 : 0
+he is : 他是 : 0
+he's : 他是 : 0
+he : 他 : 0
+goodbye : 再见 : 0
+good bye : 再见 : 0
+bye : 再见 : 0
+eating : 吃 : 0
+eats : 吃 : 0
+eat : 吃 : 0
+breakfast : 早餐 : 0
+soul seed pieces : 灵种碎片 : 0
+soul seed : 灵种 : 0
+dual innate : 天生双 : 0
+double innate : 天生双 : 0
+cloud : 云 : 0
+river : 河 : 0
+nebula : 星云 : 0
+galaxy : 星河 : 0
+high-level : 高阶 : 0
+higher order : 高阶 : 0
+mid-level : 中阶 : 0
+average level : 中阶 : 0
+levels : 级 : 0
+level : 级 : 0
+tier : 级的 : 0
+rankings : 榜 : 0
+ranking : 榜 : 0
+rank : 名位 : 0
+school : 院都 : 0
+university : 学府 : 0
+institute : 学府 : 0
+a second : 一秒 : 0
+first : 第一 : 0
+second : 第二 : 0
+third : 第三 : 0
+fourth : 第四 : 0
+within : 里 : 0
+in the : 里 the : 0
+in a : 里 a : 0
+in : 在 : 0
+inside : 里 : 0
+hall : 大厅 : 0
+sat down : 坐了 : 0
+sat : 坐了 : 0
+quietly : 静 : 0
+a while : 一会 : 0
+carefully : 仔细 : 0
+careful : 仔细 : 0
+recalled : 回想了 : 0
+thought : 回想了 : 0
+recall : 回想 : 0
+memories : 回想 : 0
+turn into : 化作 : 0
+turned into : 化作 : 0
+become : 化作 : 0
+sign : 标志 : 0
+symbol : 标志 : 0
+mark : 标志 : 0
+stars : 星 : 0
+star : 星 : 0
+--'s : 的 : 0
+--s : 的 : 0
