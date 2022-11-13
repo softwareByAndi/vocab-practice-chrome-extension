@@ -640,10 +640,6 @@ async function submitNewVocab(selection, translation, toast = true) {
     toaster("selection is empty. could not save input", "failure");
     return;
   }
-  if (!translation) {
-    toaster("translation is empty. could not save input", "failure");
-    return;
-  }
 
   let current_directory = vocab;
   for (let word of selection.split(" ")) {
@@ -657,7 +653,7 @@ async function submitNewVocab(selection, translation, toast = true) {
     current_directory = current_directory[w];
   }
 
-  if (translation == 'null')
+  if (!translation || translation == 'null')
     translation = null;
 
   current_directory._default = translation;
