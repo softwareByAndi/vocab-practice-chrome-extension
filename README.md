@@ -2,7 +2,8 @@
 
 practice vocab during daily casual web browsing
 
-
+## tutorial recording
+https://www.loom.com/share/3d1338a9f2aa40fa94520d56859265d6
 
 ## images
 *(note, I'm missing a screenshot of the settings GUI popup)*
