@@ -3,7 +3,7 @@ let API_KEY = "GOOGLE_TRANSLATE_API_KEY";
 async function queryTranslation(from_lang, to_lang, text) {
   console.log(`translating '${text}'`);
 
-  if (!text || text === "") {
+  if (!text || ) {
     alert("the text box has no value");
     return;
   }
@@ -17,6 +17,9 @@ async function queryTranslation(from_lang, to_lang, text) {
     }
   }
 
+  if (!API_KEY || API_KEY == "GOOGLE_TRANSLATE_API_KEY") {
+    alert("add your google translate api key to use google translate services");
+  }
   if (API_KEY && API_KEY != null) {
     let url = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
     url += '&q=' + encodeURI(text);
