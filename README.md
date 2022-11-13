@@ -9,7 +9,7 @@ https://www.loom.com/share/3d1338a9f2aa40fa94520d56859265d6
 
 
 ## description
-- This is a chrome extension that alters web pages to practice foreign language vocabulary by replacing any vocab you know with it's associated foreign word.
+- This is a chrome extension that alters web pages to practice foreign language vocabulary by replacing any vocab you know with its associated foreign word.
 - to support other languages, change the language codes in the translate.js file. 
 - Vocab are colored according to how often you see them: 
     - (from new -> mastered) = (red, orange, purple, dark-blue, light-blue, gray, black)
