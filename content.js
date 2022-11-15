@@ -834,8 +834,13 @@ async function run(vocab_url) {
   extension_settings();
 
   window.addEventListener('scroll', onScroll, false);
-  let divs = [...document.getElementsByTagName("div")];
-  divs.forEach(div => div.addEventListener('scroll', onScroll, false));
+  let scrollable = [...document.getElementsByTagName("div")]
+      .filter(div => {
+        let style = window.getComputedStyle(div);
+        return style.getPropertyValue("overflow-y") === "scroll" || style.getPropertyValue("overflow") === "scroll";
+      });
+  console.log("scrollable count = ", scrollable.length);
+  scrollable.forEach(div => div.addEventListener('scroll', onScroll, false));
 
   document.body.addEventListener('mouseup', (e) => {
     if (e.target.id === "text-selection-box" || e.target.id === "text-translation-box")
