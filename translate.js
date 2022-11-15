@@ -144,29 +144,32 @@ async function queryVerbCombinations_PastTense(from_lang, to_lang, verb) {
 
 // 30 conjugations
 async function queryVerbCombinations_ToBe(from_lang, to_lang, verb) {
-  let combinations = [];
+  let combinationSet = new Set();
 
-  combinations.push(`I am ${verb}`);
-  combinations.push(`I was ${verb}`);
-  combinations.push(`I have been ${verb}`);
-  
-  for (let a of ["to be ", ""])
-    combinations.push(`${a}${verb}`);
-  
-  for (let a of ["you ", "they ", "we "])
-    for (let b of ["are ", "were ", "have been "])
-        combinations.push(`${a} ${b} ${verb}`);
+  combinationSet.add(`I am ${verb}`);
+  combinationSet.add(`I was ${verb}`);
+  combinationSet.add(`I have been ${verb}`);
+  combinationSet.add(`I have ${verb}`);
 
-  for (let a of ["he ", "she ", "it "])
-    for (let b of ["is ", "was ", "has been "])
-        combinations.push(`${a} ${b} ${verb}s`);
+  for (let a of ["to be", ""])
+    combinationSet.add(`${a} ${verb}`.trim());
 
-  for (let a of ["I ", "you ", "they ", "he ", "she ", "it ", "we "])
-    for (let b of ["will be "])
-        combinations.push(`${a}${b}${verb}`);
+  for (let a of ["you", "they", "we", ""])
+    for (let b of ["are", "were", "have", "have been"])
+      combinationSet.add(`${a} ${b} ${verb}`.trim());
+
+  for (let a of ["he", "she", "it", ""])
+    for (let b of ["is", "was", "has", "has been"]) {
+      combinationSet.add(`${a} ${b} ${verb}`.trim());
+      combinationSet.add(`${a} ${b} ${verb}s`.trim());
+    }
+
+  for (let a of ["I", "you", "they", "he", "she", "it", "we", ""])
+    for (let b of ["will be"])
+      combinationSet.add(`${a} ${b} ${verb}`.trim());
 
 
-
+  let combinations = [...combinationSet];
   let translations = [];
   for (let sentence of combinations) {
     translations.push(await queryTranslation(from_lang, to_lang, sentence));
