@@ -3,7 +3,7 @@ let API_KEY = "GOOGLE_TRANSLATE_API_KEY";
 async function queryTranslation(from_lang, to_lang, text) {
   console.log(`translating '${text}'`);
 
-  if (!text || ) {
+  if (!text) {
     alert("the text box has no value");
     return;
   }
