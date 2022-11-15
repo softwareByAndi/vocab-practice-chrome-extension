@@ -808,7 +808,7 @@ async function toaster(text, type="success") {
     setTimeout(() => {
       let ele = document.getElementById(toast_id);
       if (ele)
-      ele.remove();
+        ele.remove();
     }, 10000);
   }
 
@@ -818,6 +818,14 @@ async function toaster(text, type="success") {
   return toast_id;
 }
 
+function onScroll() {
+  clearTimeout(timer);
+  timer = setTimeout(async function () {
+    await alterText();
+    adjustColors();
+  }, scroll_speed);
+}
+
 async function run(vocab_url) {
   // chrome.storage.local.clear();
   API_KEY = readLocalStorage("key");
@@ -825,15 +833,9 @@ async function run(vocab_url) {
   await alterText();
   extension_settings();
 
-  window.addEventListener('scroll', function () {
-    if (timer !== null) {
-      clearTimeout(timer);
-    }
-    timer = setTimeout(async function () {
-      await alterText();
-      adjustColors();
-    }, scroll_speed);
-  }, false);
+  window.addEventListener('scroll', onScroll, false);
+  let divs = [...document.getElementsByTagName("div")];
+  divs.forEach(div => div.addEventListener('scroll', onScroll, false));
 
   document.body.addEventListener('mouseup', (e) => {
     if (e.target.id === "text-selection-box" || e.target.id === "text-translation-box")
