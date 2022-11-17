@@ -23,13 +23,13 @@ https://www.loom.com/share/3d1338a9f2aa40fa94520d56859265d6
 
 ### translating conjugations
 - the last thing you or I want to do is manually input translations for every conjugation of a verb. So congrats! I've automated that for you. (only for English)
-- But the original code created over 524 combinations. So I pruned that down to 68 commonly used conjugations.
+- But the original code created over 524 combinations. So I pruned that down to 109 commonly used conjugations.
 - There are options to translate past present or future tense (note that your input should also be in past present or future tense in your native language)
 ```
     nouns -> 5 conjugations
-    present tense -> 30 conjugations
-    past tense -> 8 conjugations
-    future tense -> 30 conjugations
+    verb present tense -> 30 conjugations
+    verb past tense -> 8 conjugations
+    "to be" tense / future tense -> 66 conjugations
 ```
 
 
