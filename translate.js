@@ -151,7 +151,7 @@ async function queryVerbCombinations_ToBe(from_lang, to_lang, verb) {
   combinationSet.add(`I have been ${verb}`);
   combinationSet.add(`I have ${verb}`);
 
-  for (let a of ["to be", ""])
+  for (let a of ["to be", "to have", "to have been", ""])
     combinationSet.add(`${a} ${verb}`.trim());
 
   for (let a of ["you", "they", "we", ""])
@@ -161,7 +161,7 @@ async function queryVerbCombinations_ToBe(from_lang, to_lang, verb) {
   for (let a of ["he", "she", "it", ""])
     for (let b of ["is", "was", "has", "has been"]) {
       combinationSet.add(`${a} ${b} ${verb}`.trim());
-      combinationSet.add(`${a} ${b} ${verb}s`.trim());
+      combinationSet.add(`${a} ${b} ${verb}s`.trim()); // FIXME: this is a logic smell, I probably need another "tense"
     }
 
   for (let a of ["I", "you", "they", "he", "she", "it", "we", ""])
